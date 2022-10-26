@@ -1,4 +1,4 @@
-package efrei.fr
+package efrei.fr;
 
 public class Subject {
     private String subjectCode;
