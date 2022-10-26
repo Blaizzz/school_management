@@ -32,4 +32,16 @@ public class Subject {
         this.subjectDescription = subjectDescription;
         this.grade = grade;
     }
+
+    public Subject() {
+    }
+
+    @Override
+    public String toString() {
+        return "Subject{" +
+                "subjectCode='" + subjectCode + '\'' +
+                ", subjectDescription='" + subjectDescription + '\'' +
+                ", grade=" + grade +
+                '}';
+    }
 }
