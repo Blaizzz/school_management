@@ -1,3 +1,5 @@
+package efrei.fr
+
 public class Subject {
     private String subjectCode;
     private String subjectDescription;
